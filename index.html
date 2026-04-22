@@ -273,7 +273,8 @@
         <div class="step-number">2</div>
         <div class="step-content">
           <h3>Find the downloaded file</h3>
-          <p>Click the <strong>downloads icon</strong> in the top-right corner of your browser, then click the <strong>folder icon</strong> next to <code>paradox-tools.zip</code> to open it in File Explorer.</p>
+          <p class="chrome-only">Click the <strong>downloads icon</strong> in the top-right corner of Chrome, then click the <strong>folder icon</strong> next to <code>paradox-tools.zip</code> to open it in File Explorer.</p>
+          <p class="edge-only">Click the <strong>three-dot menu</strong> (⋯) in the top-right corner of Edge, then click <strong>Downloads</strong>. Find <code>paradox-tools.zip</code> and click the <strong>folder icon</strong> to open it in File Explorer.</p>
           <div class="step-img-row chrome-only">
             <div class="step-img"><img src="step2.png" alt="Chrome downloads icon" loading="lazy"></div>
             <div class="step-img"><img src="step3.png" alt="Chrome open in folder" loading="lazy"></div>
@@ -351,13 +352,9 @@
         <div class="step-content">
           <h3>Select the folder</h3>
           <p>Navigate to your <strong>Documents</strong> folder, open the <strong>paradox-tools</strong> folder, select the <strong>paradox-resume-downloader</strong> folder inside, and click <strong>Select Folder</strong>.</p>
-          <div class="step-img-row chrome-only">
+          <div class="step-img-row">
             <div class="step-img"><img src="step10.png" alt="Navigate to paradox-tools folder" loading="lazy"></div>
             <div class="step-img"><img src="step11.png" alt="Select paradox-resume-downloader folder" loading="lazy"></div>
-          </div>
-          <div class="step-img-row edge-only">
-            <div class="step-img"><img src="edge_step8a.png" alt="Edge navigate to folder" loading="lazy"></div>
-            <div class="step-img"><img src="edge_step8b.png" alt="Edge select folder" loading="lazy"></div>
           </div>
         </div>
       </div>
@@ -369,10 +366,23 @@
           <h3>You're done!</h3>
           <p>Go to <strong>Paradox.ai</strong> and open any job's <strong>Centric View</strong>. You'll see the Paradox ATS Bulk Tools icon in the bottom-right corner — click it to get started.</p>
           <div class="step-img chrome-only"><img src="step12.png" alt="Extension working on Paradox in Chrome" loading="lazy"></div>
-          <div class="step-img edge-only"><img src="edge_step9.png" alt="Extension working on Paradox in Edge" loading="lazy"></div>
           <div class="callout warning">
             <span class="callout-icon">⚠️</span>
             <span><strong>Important:</strong> Don't delete or move the unzipped folder — your browser needs it to run the extension. If you do, you'll need to re-load it from Step 7.</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Step 10: Edge developer mode warning (Edge only) -->
+      <div class="step edge-only">
+        <div class="step-number">10</div>
+        <div class="step-content">
+          <h3>Dismiss the Developer Mode warning</h3>
+          <p>Edge may show a popup warning about developer mode extensions. Click the <strong>Not now</strong> dropdown and select <strong>Remind in 2 weeks</strong> (or <strong>Remind on browser restart</strong>). This is normal and expected — it just means the extension wasn't installed from the Edge Add-ons Store.</p>
+          <div class="step-img"><img src="edge_step10.png" alt="Edge developer mode warning - click Not now" loading="lazy"></div>
+          <div class="callout">
+            <span class="callout-icon">💡</span>
+            <span>This warning will reappear periodically. Just dismiss it each time — it doesn't affect the extension's functionality.</span>
           </div>
         </div>
       </div>
